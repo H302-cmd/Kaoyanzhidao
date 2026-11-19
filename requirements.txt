@@ -1,0 +1,9 @@
+# ===== 研途 AI 依赖清单 =====
+# 核心检索/推荐/计划逻辑全部基于 Python 标准库，无需第三方包。
+# 只有 Web 界面依赖 Streamlit；python-dotenv 用于读取 .env（可选，未装会自动跳过）。
+
+# Web 交互界面（运行 app.py 必需）
+streamlit>=1.30.0
+
+# 读取 .env 配置文件（可选；未安装时自动降级为纯环境变量读取）
+python-dotenv>=1.0.0

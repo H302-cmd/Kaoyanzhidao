@@ -1,0 +1,38 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== 虚拟环境 =====
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# ===== 测试与缓存 =====
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
+
+# ===== 编辑器 / 系统 =====
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# ===== 项目内部产物（不发布到仓库）=====
+.wb_pipeline/
+*.html
+!docs/**/*.html
